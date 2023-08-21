@@ -28,9 +28,9 @@ const Transactions = () => {
           {collection.map((tx) => (
             <div
               key={tx.id}
-              className="flex justify-between items-center border border-pink-500 text-gray-400 w-full shadow-xl shadow-black rounded-md overflow-hidden bg-gray-800 my-2 p-3"
+              className="flex justify-between items-center border border-blue-400 text-gray-400 w-full shadow-xl shadow-black rounded-md overflow-hidden bg-gray-800 my-2 p-3"
             >
-              <div className="rounded-md shadow-sm shadow-pink-500 p-2">
+              <div className="rounded-md shadow-sm shadow-blue-400 p-2">
                 <BiTransfer />
               </div>
 
@@ -38,7 +38,7 @@ const Transactions = () => {
                 <h4 className="text-sm">{tx.title} Transfered</h4>
                 <small className="flex flex-row justify-start items-center">
                   <span className="mr-1">Received by</span>
-                  <a href="#" className="text-pink-500 mr-2">
+                  <a href="#" className="text-blue-400 mr-2">
                     {truncate(tx.owner, 4, 4, 11)}
                   </a>
                   <a href="#">
@@ -56,8 +56,8 @@ const Transactions = () => {
           <div className="text-center my-5">
             <button
               className="shadow-xl shadow-black text-white
-            bg-[#e32970] hover:bg-[#bd255f]
-            rounded-full cursor-pointer p-2"
+              bg-[#39afcd] hover:bg-[#08405f]
+              rounded-full cursor-pointer p-2"
               onClick={() => setEnd(end + count)}
             >
               Load More

@@ -1,4 +1,4 @@
-import timelessLogo from '../assets/timeless.png'
+import timelessLogo from '../assets/risidio.png'
 
 const Footer = () => (
   <div className="w-full flex md:justify-center justify-between items-center flex-col p-4 gradient-bg-footer">
@@ -24,7 +24,7 @@ const Footer = () => (
 
       <div className="flex flex-[0.25] justify-center items-center">
         <p className="text-white text-right text-xs">
-          &copy;2022 All rights reserved
+          &copy;2023 project demo
         </p>
       </div>
     </div>

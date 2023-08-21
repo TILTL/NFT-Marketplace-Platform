@@ -88,10 +88,10 @@ const CreateNFT = () => {
         justify-center bg-black bg-opacity-50 transform
         transition-transform duration-300 ${modal}`}
     >
-      <div className="bg-[#151c25] shadow-xl shadow-[#e32970] rounded-xl w-11/12 md:w-2/5 h-7/12 p-6">
+      <div className="bg-[#151c25] shadow-xl shadow-[#587f89] rounded-xl w-11/12 md:w-2/5 h-7/12 p-6">
         <form className="flex flex-col">
           <div className="flex flex-row justify-between items-center">
-            <p className="font-semibold text-gray-400">Add NFT</p>
+            <p className="font-semibold text-gray-400">Create NFT</p>
             <button
               type="button"
               onClick={closeModal}
@@ -102,7 +102,7 @@ const CreateNFT = () => {
           </div>
 
           <div className="flex flex-row justify-center items-center rounded-xl mt-5">
-            <div className="shrink-0 rounded-xl overflow-hidden h-20 w-20">
+            {/* <div className="shrink-0 rounded-xl overflow-hidden h-20 w-20">
               <img
                 alt="NFT"
                 className="h-full w-full object-cover cursor-pointer"
@@ -111,7 +111,7 @@ const CreateNFT = () => {
                   'https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1361&q=80'
                 }
               />
-            </div>
+            </div> */}
           </div>
 
           <div className="flex flex-row justify-between items-center bg-gray-800 rounded-xl mt-5">
@@ -181,14 +181,14 @@ const CreateNFT = () => {
             type="submit"
             onClick={handleSubmit}
             className="flex flex-row justify-center items-center
-              w-full text-white text-md bg-[#e32970]
-              hover:bg-[#bd255f] py-2 px-5 rounded-full
+              w-full text-white text-md bg-[#39afcd]
+              hover:bg-[#08405f] py-2 px-5 rounded-full
               drop-shadow-xl border border-transparent
-              hover:bg-transparent hover:text-[#e32970]
-              hover:border hover:border-[#bd255f]
+              hover:bg-transparent hover:text-[#39afcd]
+              hover:border hover:border-[#39afcd]
               focus:outline-none focus:ring mt-5"
           >
-            Mint Now
+            Create
           </button>
         </form>
       </div>
